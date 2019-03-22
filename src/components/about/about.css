@@ -1,0 +1,166 @@
+
+/* Desktop PC & Responsive */
+
+.header {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.letter {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.about-body {
+  float: center;
+}
+
+h4.ah {
+  font-weight: bold;
+}
+
+p.ap {
+  font-size: 120%;
+}
+
+.iconEffect {
+  /* display: none; */
+}
+
+a.nodecoration {
+  text-decoration: none;
+}
+
+  /* Ipad Pro COMPLETE */
+  @media screen and (max-width: 1024px) {
+    .header {
+      text-align: center;
+      font-size: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    
+    .about-body {
+      float: center;
+    }
+    
+    h1 {
+      font-size: 200%;
+    }
+
+    .projects-title {
+      font-size: 200%;
+    }
+    
+    
+    h4.ah {
+      font-weight: bold;
+      font-size: 300%;
+    }
+    
+    p.ap {
+      font-size: 200%;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+}
+  
+  /* Ipad COMPLETE */
+  @media screen and (max-width: 769px) {
+    .header {
+      font-size: 140%;
+    }
+
+    .projects-title {
+      font-size: 140%;
+    }
+
+    h4.ah {
+      font-size: 200%;
+    }
+  }
+  
+  /* Iphone 6/7/8 Plus COMPLETE */
+  @media screen and (max-width: 414px) {
+    .header {
+      font-size: 70%;
+    }
+    h4.ah {
+      font-weight: bold;
+      font-size: 160%;
+    }
+    
+    p.ap {
+      font-size: 140%;
+    }
+
+    .projects-title {
+      font-size: 100%;
+    }
+  }
+  
+  /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X */
+  @media screen and (max-width: 412px) {
+    /* .header { 
+      font-size: 200%;
+    }
+
+    .about-body {
+      margin-left: 40px;
+    }
+
+    .projects-title {
+      font-size: 200%;
+    } */
+
+  }
+  
+  /* Iphone 5/SE & Galaxy S5 */
+  @media screen and (max-width: 375px) {
+
+    /* .parent {
+      width: 100vw;
+    } */
+
+    /* .header {
+      float: left;
+ 
+    } */
+
+    h1 {
+      font-size: 100%;
+      /* margin-left: -54px; */
+      
+    }
+    
+    .about-body {
+      /* display: inline; */
+    }
+    
+    h4.ah {
+      font-weight: bold;
+      font-size: 120%;
+      margin-left: -16px;
+    }
+    
+    p.ap {
+      font-size: 110%;
+      width: 100%;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+
+    .header {
+      font-size: 110%;
+    }
+
+    .projects-title {
+      font-size: 110%;
+    }
+  }

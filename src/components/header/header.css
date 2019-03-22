@@ -1,0 +1,84 @@
+/* Desktop PC & Responsive */
+.nav {
+  overflow:hidden;
+  background-color: #4A6C89;
+  color: white;
+  padding: 20px 10px;
+  background-image: linear-gradient(to bottom, #4A6C89, #123451)
+}
+
+.nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.nav a:hover {
+  color: #A4CAE9;
+}
+
+.nav a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav-right {
+  float: right;
+}
+
+.nav-left {
+  float: left;
+}
+
+  /* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+  .nav a {
+    font-size: 28px;
+  }
+}
+
+ /* Ipad COMPLETE */
+ @media screen and (max-width: 769px) {
+
+}
+
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+
+}
+
+/* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 412px) {
+
+}
+
+/* Iphone 5/SE & Galaxy S5 */
+@media screen and (max-width: 375px) {
+
+}
+
+  /* Iphone 5/SE & Galaxy S5 */
+  @media screen and (max-width: 500px) {
+    div {
+        width: 100%;
+    }
+
+    .nav a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .nav-right {
+      float: none
+    }
+
+    .nav-left {
+      float: none
+    }
+  } 
