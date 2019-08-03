@@ -20,7 +20,7 @@ class About extends React.Component{
                 <h4 className="ah">Development and Technologies</h4>
                 <div className="icons">
                 <p className="ap iconEffect">Salesforce Development & Administration - JavaScript - React.js - Node.js - Angular - HTML & CSS</p>
-                <p className="ap iconEffect">SQL - TypeScript - Bootstrap - Git - Heroku - MaterialUI - React-Native - Python </p><br /></div>
+                <p className="ap iconEffect">SQL - TypeScript - AWS - Git - Heroku - MaterialUI - React-Native - Python </p><br /></div>
                 <h4 className="ah">Hobbies and Interests</h4>
                 <p className="ap"><a className="nodecoration" href="https://happierunfound.home.blog" target="_blank">Writing - </a>Meditation - Music - Yoga - Krav Maga - Podcasts - Economics - Philosophy - Psychology</p>
                 <p className="ap">Meaningful Relationships - Meaningful Experiences</p>
