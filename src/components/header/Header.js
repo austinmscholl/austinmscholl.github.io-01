@@ -21,7 +21,7 @@ class Header extends React.Component {
                 <a href="https://github.com/austinmscholl" target="_blank">GitHub</a>
                 <a href="https://www.linkedin.com/in/austin-scholl" target="_blank">LinkedIn</a>
                 <a href="https://trailhead.com/me/ascholl" target="_blank">Trailhead</a>
-                <a href="https://docs.google.com/document/d/1pd6pVw31MgSUaOGcCc1cTDVu03Vdi3vuUY52wlZ-bDM/edit?usp=sharing" target="_blank">Resume</a>
+                <a href="https://docs.google.com/document/d/1KbOGuvE05YVD562RCI7NK3aRcX9EyHBcIkzBOvAxw0o/edit?usp=sharing" target="_blank">Resume</a>
             </div>
         </div>
         )
